@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+html{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+body{
+    margin: 0 auto;
+    width: 1440px;
+    
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    margin-bottom: 120px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.nav ul li{
+    margin-right: 20px;
+}
+.nav ul li:last-child{
+    margin-right: 0;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #007BFF;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+}
+.btn:hover{
+    transition: all .3s ease-in-out;
+    background-color: #007BFF;
+    color:#ffffff;
+}
+
+.btn-active{
+    
+    background-color: #007BFF;
+    color:#ffffff;
+}
+.btn-active:hover{
+    
+    background-color: #f87dc5;
+    color:#ffffff;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 20px 65px;
+    align-items: center;
+    
+}
+.b-text{
+    
+    font-family: 'Fraunces', serif;
+    font-size: 58px;
+    color: #000;
+    text-align: start;
+    width: 485px;
+    height: 128px;
+}
+.l-text{
+    width: 351px;
+    height: 90px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin: 50px 0;
+
+} 
+
